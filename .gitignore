@@ -1,0 +1,7 @@
+.DS_Store
+dist/
+*.zip
+# Never commit personal data
+cv/
+*.pdf
+*.docx

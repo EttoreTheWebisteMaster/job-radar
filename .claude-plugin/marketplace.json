@@ -1,0 +1,11 @@
+{
+  "name": "job-radar",
+  "owner": { "name": "Ettore Serra" },
+  "plugins": [
+    {
+      "name": "job-radar",
+      "source": "./",
+      "description": "A personal job-search radar that runs on Claude."
+    }
+  ]
+}

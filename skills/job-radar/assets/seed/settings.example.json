@@ -1,0 +1,23 @@
+{
+  "homeCity": "Lyon",
+  "country": "France",
+  "nearby": ["Villeurbanne", "Vénissieux", "Caluire-et-Cuire"],
+  "modes": ["on-site", "hybrid", "remote"],
+  "remoteFrom": "Country",
+  "relocate": "home",
+  "otherCities": [],
+  "language": "French",
+  "searchLanguages": ["French", "English"],
+  "timezone": "Europe/Paris",
+  "maxYears": null,
+  "contracts": ["permanent", "fixed-term", "freelance"],
+  "skipInternships": true,
+  "cvs": [
+    { "key": "FRONTEND", "label": "Frontend", "focus": "frontend developer CV" },
+    { "key": "UXUI", "label": "UX/UI", "focus": "UX/UI designer CV" }
+  ],
+  "niche": "",
+  "publicCalls": false,
+  "exclude": [],
+  "updated": "2026-10-29"
+}

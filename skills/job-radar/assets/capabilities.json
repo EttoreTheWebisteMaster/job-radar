@@ -1,0 +1,11 @@
+{
+  "db": {},
+  "user": {},
+  "sample": {},
+  "mcp": {
+    "servers": [
+      { "server": "Tavily", "tools": ["tavily_extract"] },
+      { "server": "Claude Code Remote", "tools": ["list_triggers", "update_trigger", "fire_trigger"] }
+    ]
+  }
+}

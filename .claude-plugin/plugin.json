@@ -1,0 +1,10 @@
+{
+  "name": "job-radar",
+  "version": "1.0.0",
+  "description": "A personal job-search radar: nightly role search scored against your CVs, a private claude.ai dashboard, weekly company hunt and review.",
+  "author": { "name": "Ettore Serra", "url": "https://www.ettoreserra.it" },
+  "homepage": "https://github.com/EttoreTheWebisteMaster/job-radar",
+  "repository": "https://github.com/EttoreTheWebisteMaster/job-radar",
+  "license": "MIT",
+  "keywords": ["jobs", "job-search", "career", "cv", "artifacts", "scheduled-tasks"]
+}

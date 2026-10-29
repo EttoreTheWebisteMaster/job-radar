@@ -1,0 +1,14 @@
+[
+  { "id": "linkedin-jobs", "name": "LinkedIn Jobs (search pages only)", "url": "https://www.linkedin.com/jobs/", "kind": "Aggregator", "use": ["Jobs"], "status": "untested", "notes": "Discovery only: follow to the company posting." },
+  { "id": "indeed", "name": "Indeed", "url": "https://www.indeed.com/", "kind": "Aggregator", "use": ["Jobs"], "status": "untested", "notes": "Use the country domain, e.g. it.indeed.com, fr.indeed.com." },
+  { "id": "glassdoor", "name": "Glassdoor", "url": "https://www.glassdoor.com/Job/", "kind": "Aggregator", "use": ["Jobs", "Companies"], "status": "untested", "notes": "" },
+  { "id": "jooble", "name": "Jooble", "url": "https://jooble.org/", "kind": "Aggregator", "use": ["Jobs"], "status": "untested", "notes": "" },
+  { "id": "welcome-to-the-jungle", "name": "Welcome to the Jungle", "url": "https://www.welcometothejungle.com/", "kind": "Startup board", "use": ["Jobs", "Companies"], "status": "untested", "notes": "" },
+  { "id": "wellfound", "name": "Wellfound", "url": "https://wellfound.com/jobs", "kind": "Startup board", "use": ["Jobs", "Companies"], "status": "untested", "notes": "" },
+  { "id": "we-work-remotely", "name": "We Work Remotely", "url": "https://weworkremotely.com/", "kind": "Remote board", "use": ["Jobs"], "status": "untested", "notes": "Check each role's location scope." },
+  { "id": "remote-ok", "name": "Remote OK", "url": "https://remoteok.com/", "kind": "Remote board", "use": ["Jobs"], "status": "untested", "notes": "Check each role's location scope." },
+  { "id": "eu-remote-jobs", "name": "EU Remote Jobs", "url": "https://euremotejobs.com/", "kind": "Remote board", "use": ["Jobs"], "status": "untested", "notes": "" },
+  { "id": "landing-jobs", "name": "Landing.jobs", "url": "https://landing.jobs/", "kind": "Job board", "use": ["Jobs", "Companies"], "status": "untested", "notes": "European tech roles, often with relocation." },
+  { "id": "dribbble-jobs", "name": "Dribbble Jobs", "url": "https://dribbble.com/jobs", "kind": "Design board", "use": ["Jobs"], "status": "untested", "notes": "Only for design profiles." },
+  { "id": "lever-boards", "name": "Lever boards", "url": "https://jobs.lever.co/", "kind": "ATS", "use": ["Jobs", "Companies"], "status": "untested", "notes": "Search with site:jobs.lever.co plus a city or country." }
+]

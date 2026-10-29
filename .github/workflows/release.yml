@@ -1,0 +1,24 @@
+name: Release skill zip
+
+on:
+  push:
+    tags: ["v*"]
+
+permissions:
+  contents: write
+
+jobs:
+  zip:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check release.json matches the tag
+        run: |
+          v=$(python3 -c "import json;print(json.load(open('skills/job-radar/assets/release.json'))['version'])")
+          test "$v" = "${GITHUB_REF_NAME}" || { echo "release.json says $v, tag is ${GITHUB_REF_NAME}"; exit 1; }
+      - name: Build job-radar-skill.zip
+        run: cd skills && zip -r ../job-radar-skill.zip job-radar
+      - uses: softprops/action-gh-release@v2
+        with:
+          files: job-radar-skill.zip
+          generate_release_notes: true
